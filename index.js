@@ -9,6 +9,7 @@ app.listen(3000, ()=>{
     console.log('Server Ok')
 })
 
+//Rocha
 app.get('/rocha', (req, res) => {
     res.json({message:"oii rocha dura"})
 })
